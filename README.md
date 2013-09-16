@@ -1,6 +1,6 @@
 # CornerRibbon [![Build Status](https://secure.travis-ci.org/css-recipes/corner-ribbon.png?branch=master)](http://travis-ci.org/css-recipes/corner-ribbon)
 
-> Simple CSS corner ribbon.
+> CSS corner ribbon.
 
 ## Getting Started
 
