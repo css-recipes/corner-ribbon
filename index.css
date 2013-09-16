@@ -1,0 +1,52 @@
+.crp-CornerRibbon {
+  position: absolute;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 10em;
+  height: 2em;
+  line-height: 2em;
+  top: 5.04178em;
+  right: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100% 0;
+  -ms-transform-origin: 100% 100% 0;
+  transform-origin: 100% 100% 0;
+}
+
+.crp-CornerRibbon {
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  border: 1px solid #631a15;
+  background: #c73b3c;
+  background: -webkit-gradient(linear, top left, bottom left, from(#c73b3c), to(#b8201f));
+  background: -webkit-linear-gradient(#c73b3c, #b8201f);
+  background: linear-gradient(#c73b3c, #b8201f);
+  -webkit-box-shadow: 0 0.2em 0.6em rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.2em 0.6em rgba(0, 0, 0, 0.6);
+}
+
+.crp-CornerRibbon:before,
+.crp-CornerRibbon:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  border: 1px dashed;
+  border-left: 0;
+  border-right: 0;
+  border-top-color: #631a15;
+  border-bottom-color: #da5050;
+}
+
+.crp-CornerRibbon:before {
+  top: 3px;
+}
+
+.crp-CornerRibbon:after {
+  bottom: 1px;
+}

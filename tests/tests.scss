@@ -1,0 +1,25 @@
+@import "index";
+
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden; // to prevent scroll & show overflow created by ribbons
+}
+
+.top-left {
+	@include crp-CornerRibbon('top left', $height: 3em, $offset-v: 4em)
+}
+
+.top-right {
+	@include crp-CornerRibbon($width: 20em, $height: 3em);
+}
+
+.bottom-right {
+	@include crp-CornerRibbon('bottom right', $offset-h: 10em)
+}
+
+.bottom-left {
+	@include crp-CornerRibbon($position: 'bottom left', $height: 5em)
+}
